@@ -27,7 +27,7 @@ jobs:
         with:
           url: 'https://dtrack.quobis.com'
           key: '${{ secrets.SECRET_OWASP_DT_KEY }}'
-          language: 'golang'
+          language: 'nodejs'
       
       # Show the risk score output 
       - name: Get the output time
