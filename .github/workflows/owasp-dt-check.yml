@@ -25,8 +25,8 @@ jobs:
         id: riskscoreFromDT
         uses:  Quobis/action-owasp-dependecy-track-check@main
         with:
-          url: 'https://dtrack.quobis.com'
-          key: '${{ secrets.SECRET_OWASP_DT_KEY }}'
+          url: 'https://locaalhost:8080'
+          key: 's8NkurLkVn8vxv0cep1VtxtNNl5PYhO7'
           language: 'nodejs'
       
       # Show the risk score output 
