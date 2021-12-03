@@ -25,7 +25,7 @@ jobs:
         id: riskscoreFromDT
         uses:  Quobis/action-owasp-dependecy-track-check@main
         with:
-          url: 'http://locaalhost:8080'
+          url: 'http://localhost:8080'
           key: 's8NkurLkVn8vxv0cep1VtxtNNl5PYhO7'
           language: 'nodejs'
       
