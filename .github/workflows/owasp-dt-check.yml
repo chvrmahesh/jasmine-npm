@@ -23,7 +23,7 @@ jobs:
       # Generates a BoM and uploads it to OWASP Dependency Track
       - name: Generates BoM and upload to OWASP DTrack
         id: riskscoreFromDT
-        uses:  Quobis/action-owasp-dependecy-track-check@main
+        uses:  CycloneDX/gh-node-module-generatebom@master
         with:
           url: 'http://localhost:8080'
           key: 's8NkurLkVn8vxv0cep1VtxtNNl5PYhO7'
