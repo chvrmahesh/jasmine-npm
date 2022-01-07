@@ -25,10 +25,10 @@ jobs:
         id: riskscoreFromDT
         uses:  Quobis/action-owasp-dependecy-track-check@main
         with:
-       # cyclonedx-bom -o bom.xml
-          # url: 'http://localhost:8080'
-          # key: 's8NkurLkVn8vxv0cep1VtxtNNl5PYhO7'
-          # language: 'nodejs'
+          # cyclonedx-bom -o bom.xml
+           url: 'http://localhost:8080'
+           key: 's8NkurLkVn8vxv0cep1VtxtNNl5PYhO7'
+           language: 'nodejs'
       
       # Show the risk score output 
       - name: Get the output time
