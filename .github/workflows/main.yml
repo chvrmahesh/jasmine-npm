@@ -27,7 +27,7 @@ jobs:
         with:
           # cyclonedx-bom -o bom.xml
            url: 'http://localhost:8081'
-           key: 'wh2ETYrJv0xmwP6R9MzhxIZqtgvTTlIp' 
+           key: '' 
            language: 'nodejs'
       
       # Show the risk score output 
